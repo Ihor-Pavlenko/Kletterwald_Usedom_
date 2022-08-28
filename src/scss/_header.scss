@@ -1,0 +1,79 @@
+// Header
+header {
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+.nav {
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &_logo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    &_main_name {
+        padding-top: 26px; 
+    }
+
+    &_items {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 42px;
+    }
+
+    &_item {
+        font-family: 'Roboto', sans-serif;        list-style: none;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        margin-right: 64px;
+    }
+}
+
+.main_name {
+    display: flex;
+    flex-direction: column;
+    width: 124px;
+
+    &-first {
+        font-family: 'Roboto', sans-serif;        font-style: normal;
+        font-weight: 700;
+        font-size: 23.2967px;
+        color: #0E0D0A;
+        text-align: center;
+    }
+
+    &-second {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 23.2967px;
+        color: #5AAB3D;
+        text-align:center;
+    }
+}
+
+.nav_item:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    background: #0E0D0A;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .nav_item:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }

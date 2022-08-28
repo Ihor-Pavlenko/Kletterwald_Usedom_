@@ -1,0 +1,69 @@
+.info {
+    margin-top: 284px;
+
+    &_01 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 99px;
+    }
+
+    &__image-left {
+        margin-right: 60px;
+    }
+
+    &_02 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 99px;
+    }
+
+    &__image-right {
+        float: right;
+        margin-left: 179px;
+    }
+
+    &_03 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 88px;
+    }
+}
+
+.intoduction {
+    max-width: 450px;
+}
+
+.location {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+}
+
+.description, .description_02, .desc_p2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.description {
+    margin-top: 64px;
+    margin-bottom: 42px;
+}
+
+.description_02 {
+    margin-bottom: 42px;
+}
+
+.einweisung {
+    height: 625px;
+    width: 100%;
+}
+
+[poster] {
+    width: 100%;
+}
