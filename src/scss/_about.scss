@@ -11,6 +11,12 @@
 
     &__image-left {
         margin-right: 60px;
+        transition-duration: 2000ms;
+    }
+
+    &__image-left:hover {
+        transform: scale(110%);
+        transition-duration: 2000ms;
     }
 
     &_02 {
@@ -23,6 +29,12 @@
     &__image-right {
         float: right;
         margin-left: 179px;
+        transition-duration: 2000ms;
+    }
+
+    &__image-right:hover {
+        transform: scale(120%);
+        transition-duration: 2000ms;
     }
 
     &_03 {

@@ -1,0 +1,76 @@
+.parcours {
+
+    &__title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 64px;
+        margin-bottom: 32px;
+    }
+
+    &__image {
+        height: 85vh;
+        width: 100%;
+        margin-bottom: 64px;
+    }
+
+    &__line {
+        height: 2px;
+        background-color: #000;
+    }
+    .accordion {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        background-color: #fff;
+        color: #000;
+        cursor: pointer;
+        padding: 20px 0 20px 0;
+        width: 100%;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+      }
+      
+      .panel {
+        padding: 0 18px;
+        background-color: white;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        & p:nth-child(1) {
+            width: 630px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+        }
+
+        & div:nth-child(2) {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+        }
+      }
+    
+      .accordion:after {
+        content: url("../img/plus.svg");
+        font-size: 20px;
+        color: #000;
+        float: right;
+        margin-left: 5px;
+        margin-top: 25px;
+      }
+      
+      
+      .active:after {
+        content: url("../img/minus.svg");
+      }
+}

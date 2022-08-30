@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
 </head>
 
-<body class="main__body">
+<body class="main__body" id="body">
     <!-- Header -->
     @@include('./html/_header.html')
 
@@ -21,13 +21,21 @@
         @@include('./html/_about.html')
         @@include('./html/_openHours.html')
         @@include('./html/_importantInfo.html')
+        @@include('./html/_hinweiss.html')
+        @@include('./html/_prices.html')
+        @@include('html/_capacityInfo.html')
+        @@include('html/_parcours.html')
+        @@include('html/_parcours02.html')
+        @@include('html/_anfahrt.html') 
+        @@include('html/_top.html')
     </main>
 
     <!-- Footer -->
-    <!-- @@include('./html/_footer.html') -->
+    @@include('./html/_footer.html')
 
 </body>
 <script type="module" src="./js/swiper.js"></script>
 <script src="./js/main.js"></script>
+<script src="./js/accordeon.js"></script>
 
 </html>

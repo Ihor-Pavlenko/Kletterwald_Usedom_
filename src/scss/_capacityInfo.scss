@@ -1,15 +1,14 @@
-.important {
+.capacity {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    margin-bottom: 140px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 260px;
 
     &__title {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
         font-size: 64px;
-        margin-right: 280px;
         margin-bottom: 18px;
 
         &:after {    
@@ -24,27 +23,30 @@
             width: 0;
           }
           &:hover:after { 
-            width: 100%; 
+            width: 66%; 
             left: 0; 
           }
     }
 
-    &__list {
-        max-width: 560px;
-        margin-right: 90px;
-    }
-
-    &__item {
+    &__info ul li {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        font-size: 24px;
-        line-height: 31px;
+        font-size: 32px;
+        line-height: 42px;
+        margin-bottom: 20px;
+        max-width: 560px;
         transition-duration: 2000ms;
     }
 
-    &__item:hover {
-        transform: scale(120%);
+    &__info ul li:hover {
+        transform: scale(120%);    
         transition-duration: 2000ms;
+    }
+
+    img {
+        max-width: 570px;
+        max-height: 595px;
+        border-radius: 10px;
     }
 }

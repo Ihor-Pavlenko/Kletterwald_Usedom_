@@ -11,24 +11,25 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
 </head>
 
-<body class="main__body">
+<body class="main__body" id="body">
     <!-- Header -->
     <header>
     <!-- Navbar -->
     <div class="container">
         <nav class="nav">
             <div class="nav_logo">
-                <img class="image" src="../img/111-removebg-preview.png" alt="logo">
-            <div class="nav_main_name">
-                <div class="main_name-first">Kletterwald</div>
-                <div class="main_name-second">Usedom</div>
-            </div>
+                <a href="#body"><img class="image" src="../img/111-removebg-preview.png" alt="logo"></a>
+
+                <a href="#body"><div class="nav_main_name">
+                    <div class="main_name-first">Kletterwald</div>
+                    <div class="main_name-second">Usedom</div>
+                </div></a>
             </div>
             <div class="nav_sections">
                 <ul class="nav_items">
                     <li class="nav_item"><a href="#open-hours" class="nav__link">Öffnungszeiten</a></li>
-                    <li class="nav_item">Preise & Tickets</li>
-                    <li class="nav_item">Parcours</li>
+                    <li class="nav_item"><a href="#price" class="nav__link">Preise & Tickets</a></li>
+                    <li class="nav_item"><a href="#parcours" class="nav__link">Parcours</a></li>
                     <li class="nav_item">Jobs</li>
                 </ul>
             </div>
@@ -126,7 +127,7 @@
 </div>
         <div class="important container">
     <h1 class="important__title">
-        Pass auf
+        Bitte beachten
     </h1>
     <ul class="important__list">
         <li class="important__item">
@@ -142,13 +143,208 @@
         </li>
     </ul>
 </div>
+        <div class="hinweiss container" id="price">
+    <h1 class="hinweiss__title">Preise / Tickets</h1>
+    <div class="hinweiss__info">
+        HINWEIS. Natürlich können Sie auch weiterhin Tickets vor Ort kaufen. Die gesamte verfügbare Kapazität wird NICHT im Online-Buchungssystem angezeigt.
+    </div>
+</div>
+        <div class="prices container prices-distance">
+    <h1 class="prices__title">Preise</h1>
+    <div class="prices__info">
+        <p>Erwachsene</p>
+        <p>ab 18 Jahre</p>
+        <p>23 €</p>
+    </div>
+    <hr>
+    <div class="prices__info">
+        <p>Studenten und Azubis </p>
+        <p>(mit Nachweis)</p>
+        <p>21 €</p>
+    </div>
+    <hr>
+    <div class="prices__info">
+        <p>Jugendliche</p>
+        <p>12-17 Jahre</p>
+        <p>19 €</p>
+    </div>
+    <hr>
+    <div class="prices__info">
+        <p>Kinder</p>
+        <p>8-11 Jahre</p>
+        <p>16 €</p>
+    </div>
+    <hr> 
+    <div class="prices__info">
+        <p>Minis</p>
+        <p>6-7 Jahre</p>
+        <p>14 €</p>
+    </div>
+    <hr>
+</div>
+
+<div class="prices container prices-bottom">
+    <h1 class="prices__title prices__title-center">Gruppenreise (ab 15 Personen)</h1>
+    <div class="prices__info">
+        <p>1 - 4 KLasse</p>
+        <p>12 €</p>
+        <p>pro Person</p>
+    </div>
+    <hr>
+    <div class="prices__info">
+        <p>5 - 6 KLasse</p>
+        <p>13 €</p>
+        <p>pro Person</p>
+    </div>
+    <hr>
+    <div class="prices__info">
+        <p>7 - 12 KLasse</p>
+        <p>15 €</p>
+        <p>pro Person</p>
+    </div>
+    <hr>
+    <div class="prices__info">
+        <p>Firmen/Vereine</p>
+        <p>15% Rabatt</p>
+    </div>
+    <hr> 
+</div>
+        <div class="capacity container">
+    <div class="capacity__info">
+        <h1 class="capacity__title">Bitte beachten</h1>
+        <ul>
+            <li>• Die Nutzungsdauer beträgt 150 Minuten.</li>
+            <li>• Die Nutzung der Parcours ist alters- und größenabhängig.</li>
+            <li>• Für Begleitpersonen, die nicht klettern, ist der Kletterwald frei zugänglich.</li>
+            <li>• Bei Gruppen über 10 Personen wird um telefonische Voranmeldung gebeten.</li>
+            <li>• Bei Kindern von 6-12 Jahren muss eine Begleitperson zumindest unten mit dabei sein.</li>
+        </ul>
+    </div>
+    <img src="../img/Kletterwald1 1.png">
+</div>
+        <div class="parcours container" id="parcours">
+    <h1 class="parcours__title">Parcours</h1>
+    <img class="parcours__image" src="../img/178 1.png">
+    <button class="accordion">Spielparcours</button>
+    <div class="panel">
+    <p>Die Erlebniswelt der Kleinsten hier kommen alle auf ihre Kosten. Sie können sich mit der Sicherheitstechnik vertraut machen und die Eltern geben im Bedarfsfall kleine Unterstützung. </p>
+    <div>Alter: ab 6 Jahre
+        <br>
+        Körpergröße: ab 1 Meter max. 
+        <br>
+        Höhe: 1,50 Meter
+        <br>
+        Elemente: 10</div>
+    </div>
+    <hr class="parcours__line">
+
+    <button class="accordion">Spaßparcours</button>
+    <div class="panel">
+        <p>Die Steigerung des Spielparcours. Abenteuerliche Elemte wie in unseren großen Parcours ausgelegt für Kinder und Erwachsene mit Höhenangst.</p>
+        <div>Alter ab 6 Jahren
+            <br>
+            Körpergröße ab 1 Meter max.
+            <br>
+            Höhe: 2 Meter
+            <br>
+            Elemente: 15</div>
+        </div>
+    <hr class="parcours__line">
+
+
+    <button class="accordion">Fitnessparcours</button>
+    <div class="panel">
+        <p>Die Erweiterung des Spaßparcours um einige schwerer Elemente führt Euch in 2 - 4 m Höhe. Wer die Strecke bewältigt hat, kann sich an die anspruchsvolleren Strecken wagen.</p>
+        <div>Alter ab 6 Jahren
+            <br>
+            Körpergöße ab 1 Meter max.
+            <br>
+            Höhe: 4 Meter
+            <br>
+            Elemente: 14</div>
+        </div>
+    </div>
+</div>
+        <div class="parcours container">
+    <hr class="parcours__line">
+    <button class="accordion">Erlebnisparcours</button>
+    <div class="panel">
+        <p>Der Erlebnisparcours ist eine tolle Erfahrung für Groß und Klein. Sie schwebenund fliegen in einer Höhe bis zu 6 m über den Waldboden.</p>
+        <div>Alter ab 8 Jahren
+            <br>
+            Körpergöße ab 1.30 Meter max.
+            <br>
+            Höhe: 6 Meter
+            <br>
+            Elemente: 22
+        </div>
+    </div>
+    <hr class="parcours__line">
+
+    <button class="accordion">Abenteuerparcours</button>
+    <div class="panel">
+        <p>Dieser Parcours ist für Erlebnishungrige und fordert reichlich Geschick. Vom Tarzansprung bis hin zum Wipfelsurfen ist dies unser längster Parcours in einer Höhe von max. 11 m.</p>
+        <div>Alter ab 12 Jahren
+            <br>
+            Körpergöße ab 1.50 Meter max.
+            <br>
+            Höhe: 11 Meter
+            <br>
+            Elemente: 22
+        </div>
+    </div>
+    <hr class="parcours__line">
+
+    <button class="accordion">Risikoparcours</button>
+    <div class="panel">
+        <p>Unser höchster und zugleich anspruchsvollster Parcours. Die technisch weiterentwickelten Elemente sind körperlich deutlich anspruchsvoller und verlangen einiges an Kraft und Konzentration ab.</p>
+        <div>Alter ab 14 Jahren
+            <br>
+            Körpergöße ab 1.60 Meter max.
+            <br>
+            Höhe: 14 Meter
+            <br>
+            Elemente: 17
+        </div>
+    </div>
+    <hr class="parcours__line">
+
+</div>
+        <div class="anfahrt container">
+    <div class="anfahrt__info">
+        <h1 class="anfahrt__title">Anfahrt</h1>
+        <p>
+            Auf der Insel Usedom finden sie unseren Kletterwald direkt an der B111, aus Richtung Wolgast kommend kurz hinter dem Ortsausgang Ückeritz auf der rechten Seite.
+        </p>
+        <p>
+            Die nächstgelegene Haltestelle der Usedomer Bäder Bahn ist Neu Pudagla. Ein kurzer Fußweg führt Sie dann direkt zu uns (ca. 5 min).
+        </p>
+    </div>
+
+    <div class="anfahrt__map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2345.0826945979807!2d14.056459415690922!3d54.00130773315087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47aaf8ded5fce383%3A0x2bf2f139821abe33!2sKletterwald%20Usedom!5e0!3m2!1sen!2sua!4v1661883095863!5m2!1sen!2sua" width="570" height="494" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</div> 
+        <div class="top container">
+    <a href="#body"><img src="../img/black_arrow.png" alt=""></a>
+</div>
     </main>
 
     <!-- Footer -->
-    
+    <footer>
+        <div class="footer">
+            <ul class="footer__list">
+                <li>Partner</li>
+                <li>Nutzungsbedingungen</li>
+                <li>Datenschutzerklarung</li>
+                <li>Kontakt und Impressum</li>
+            </ul>
+        </div>
+</footer>
 
 </body>
 <script type="module" src="./js/swiper.js"></script>
 <script src="./js/main.js"></script>
+<script src="./js/accordeon.js"></script>
 
 </html>

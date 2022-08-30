@@ -1,0 +1,16 @@
+.top {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+    & img {
+        transition-duration: 1500ms;
+    }
+
+    & img:hover {
+        transform: scale(120%);
+        transition-duration: 1500ms;
+    }
+}
+
+
